@@ -6,20 +6,23 @@ hero:
   name: "杂乱的收获"
   text: "你想看看吗"
   tagline: My best project
+  image:
+    src: /tianyi.png
+    alt: 背景图
   actions:
     - theme: brand
       text: 开始阅读
-      link: /example/markdown-examples
+      link: /01_about
     - theme: alt
-      text: API Examples
-      link: /example/api-examples
+      text: 网络日志
+      link: https://mei.lv
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 学习全栈
+    details: 很有趣的,相信你也会迷上它:)
+  - title: As a geek
+    details: 折腾东西会带来无穷无尽的乐趣!
+  - title: 奇奇怪怪的小知识
+    details: 你大概率不知道
 ---
 

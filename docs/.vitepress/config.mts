@@ -17,8 +17,13 @@ export default defineConfig({
   description: "杂乱的收获,不想失去",
   srcDir: './src',
   themeConfig: {
+    logo: '/favicon.ico',
+    footer: {
+      message: 'Released under the <a href="https://git.mei.lv/mei/kb/src/branch/main/LICENSE">CC-BY-NC-SA-4.0</a> License.',
+      copyright: 'Copyright © 2009-2025 <a href="https://github.com/ssdomei232">mei</a>'
+    },
     editLink: {
-      pattern: 'https://git.mei.lv/mei/kb/_edit/main/docs/:path'
+      pattern: 'https://git.mei.lv/mei/kb/_edit/main/docs/src/:path'
     },
     search: {
       provider: 'local'
@@ -26,11 +31,11 @@ export default defineConfig({
     sidebar: generateSidebar(vitepressSidebarOptions),  
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '关于', link: '/01_about' }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://git.mei.lv/mei/kb' }
+      { icon: 'gitea', link: 'https://git.mei.lv/mei/kb' }
     ]
   }
 })
