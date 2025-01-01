@@ -32,7 +32,7 @@ export default {
 }
 ```
 
-## Custom Containers
+### 自定义容器
 
 **Input**
 
@@ -79,6 +79,9 @@ This is a dangerous warning.
 ::: details
 This is a details block.
 :::
+
+> [!IMPORTANT]
+> VitePress 同样支持以标注的方式渲染 GitHub 风格的警报。它们和自定义容器的渲染方式相同。
 
 ## More
 
