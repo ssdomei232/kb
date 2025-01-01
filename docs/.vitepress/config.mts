@@ -18,7 +18,7 @@ export default defineConfig({
   srcDir: './src',
   themeConfig: {
     editLink: {
-      pattern: 'https://git.mei.lv/mei/kb/edit/main/docs/:path'
+      pattern: 'https://git.mei.lv/mei/kb/_edit/main/docs/:path'
     },
     search: {
       provider: 'local'
