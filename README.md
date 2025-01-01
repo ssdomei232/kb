@@ -1,3 +1,6 @@
-# kb
+杂乱的收获,不想失去
 
-杂乱的收获
+```shell
+npm i
+npm run dev
+```
