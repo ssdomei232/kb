@@ -10,4 +10,16 @@
 * 痛恨互联网上的那个墙,还有那些烦得不能再烦的审查机制。
 
 [状态监测](https://status.mmeiblog.cn/status/website)   
-[赛博斗蛐蛐](https://status.linuxcat.top/)
+[赛博斗蛐蛐](https://status.linuxcat.top/)   
+
+我的一些网站:
+* [Alist](https://newb.mei.lv)
+* [Gitea](https://git.mei.lv)
+* [FRP](https://frp.linuxcat.top/)
+* [短链接](https://u.mei.lv/)
+* [Cat API](https://api.mmeiblog.cn/)
+* [静态文件](https://static.mmeiblog.cn/)
+* [雨云梗图集群](https://pic.mmeiblog.cn/)
+* [uptime-kuma](https://status.mei.lv/)
+* [Nezha](https://status.linuxcat.top/)
+* [Umami](https://umami.mmeiblog.cn/dashboard)
