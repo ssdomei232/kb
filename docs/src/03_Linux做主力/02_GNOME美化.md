@@ -53,6 +53,29 @@ vim /etc/default/grub
 ```
 注释 `GRUB_TIMEOUT_STYLE` 配置   
 修改 `GRUB_TIMEOUT` 配置为 10 （这项配置的单位是秒，按需修改）   
+### 推荐的主题
+[KawaiiGRUB](https://github.com/Gabbar-v7/KawaiiGRUB)，[Elegant-grub2-themes](https://github.com/vinceliuice/Elegant-grub2-themes)，[minegrub-theme](https://github.com/Lxtharia/minegrub-theme)   
+你还可以在 [Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB) 中找到精美的精选主题
+
+## 多屏壁纸
+### Multi Monitors Add-On
+可以选择在 [GNOME Extensions](https://extensions.gnome.org/) 上安装 Multi Monitors Add-On 插件，不过此插件已经**不兼容**最新版的 GNOME   
+### HydraPaper
+我选择使用 HydraPaper 来实现多屏壁纸设置：   
+1. 启用Flatpak支持   
+```shell
+sudo apt install flatpak
+```
+2. 添加Flathub仓库   
+```shell
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+3. 安装HydraPaper   
+```shell
+flatpak install flathub org.gabmus.hydrapaper
+```
+4. 重启   
+重启电脑后可以在应用菜单找到 HydraPaper ，默认它会使用主目录下 `图片` 文件夹中的图片   
 
 ## 参考
 [Ubuntu桌面美化教程，手把手教你。含GRUB引导界面美化。](https://blog.csdn.net/2301_76911706/article/details/133000145)   
