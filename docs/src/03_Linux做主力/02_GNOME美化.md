@@ -46,13 +46,18 @@ cd WhiteSur-wallpapers
 1. 安装主题
 在 `https://www.pling.com/browse?cat=124&ord=latest` 找到主题   
 大部分主题会有 `install.sh`
-2. 欣赏主题
+2. 欣赏主题   
 有些系统默认不会显示 GRUB 引导项选择界面，需要更改配置来显示   
 ```shell
 vim /etc/default/grub
 ```
 注释 `GRUB_TIMEOUT_STYLE` 配置   
 修改 `GRUB_TIMEOUT` 配置为 10 （这项配置的单位是秒，按需修改）   
+3. 更新配置
+```shell
+sudo update-grub
+```
+
 ### 推荐的主题
 [KawaiiGRUB](https://github.com/Gabbar-v7/KawaiiGRUB)，[Elegant-grub2-themes](https://github.com/vinceliuice/Elegant-grub2-themes)，[minegrub-theme](https://github.com/Lxtharia/minegrub-theme)   
 你还可以在 [Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB) 中找到精美的精选主题
