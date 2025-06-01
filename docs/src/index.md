@@ -3,22 +3,22 @@
 layout: home
 
 hero:
-  name: "杂乱的收获"
-  text: "你想看看吗"
+  name: "mei's knowledge base"
+  text: "Do you want to see?"
   tagline: My best project
   image:
     src: /tianyi.png
     alt: 背景图
   actions:
     - theme: brand
-      text: 开始阅读
+      text: Start
       link: /01_about
     - theme: alt
-      text: 网络日志
+      text: Blog
       link: https://mei.lv
 
 features:
-  - title: 学习全栈
+  - title: 学习 Web 全栈
     details: 很有趣的,相信你也会迷上它:)
   - title: As a geek
     details: 折腾东西会带来无穷无尽的乐趣!
