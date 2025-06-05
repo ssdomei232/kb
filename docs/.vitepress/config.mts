@@ -13,8 +13,8 @@ const vitepressSidebarOptions = {
 export default defineConfig({
   lastUpdated: true,
   lang: 'zh-CN',
-  title: "杂乱的收获",
-  description: "杂乱的收获,不想失去",
+  title: "mei's knowledge base",
+  description: "mei's knowledge base",
   srcDir: './src',
   themeConfig: {
     logo: '/favicon.ico',
