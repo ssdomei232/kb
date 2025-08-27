@@ -23,7 +23,7 @@ export default defineConfig({
       copyright: 'Copyright © 2009-2025 <a href="https://github.com/ssdomei232">mei</a>'
     },
     editLink: {
-      pattern: 'https://git.mei.lv/mei/kb/_edit/main/docs/src/:path'
+      pattern: 'https://git.mmeiblog.cn/mei/kb/_edit/main/docs/src/:path'
     },
     search: {
       provider: 'local'
