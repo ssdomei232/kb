@@ -8,12 +8,20 @@
 sudo apt install gnome-tweaks chrome-gnome-shell
 ```
 
-2. 安装浏览器插件
+1. 安装浏览器插件
 在任意浏览器扩展商店（Edge需要在 Google 扩展商店）搜索 `GNOME Shell` 并安装 `GNOME Shell 集成`
-3. 安装插件
+2. 安装插件
 进入 [extensions.gnome.org](https://extensions.gnome.org/)
-选择需要的插件安装，这里推荐 `Blur my shell`（让指定位置变透明）和 `user themes`（用于更改图标和安装你喜欢的主题）
-4. 安装主题
+选择需要的插件安装，这里推荐一些我用的:
+
+* `Blur my shell`：让指定位置变透明
+* `user themes`：用于更改图标和安装你喜欢的主题
+* `SimpleWeather`: 显示天气
+* `Compiz alike magic lamp effect`: 丝滑的窗口动画
+* `Clipboard Indicator`：剪切板历史
+* `Coverflow Alt-Tab`:美化窗口切换效果
+
+3. 安装主题
 进入网站下载主题：
 `https://www.gnome-look.org/browse/`
 或
@@ -32,7 +40,7 @@ cd WhiteSur-gtk-theme
 ./install.sh
 ```
 
-2. 安装 WhiteSur icon
+1. 安装 WhiteSur icon
 
 ```shell
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
@@ -40,7 +48,7 @@ cd WhiteSur-icon-theme
 ./install.sh -b
 ```
 
-3. 安装 WhiteSur cursors
+1. 安装 WhiteSur cursors
 
 ```shell
 git clone https://github.com/vinceliuice/WhiteSur-cursors.git
@@ -48,7 +56,7 @@ cd WhiteSur-cursors
 ./install.sh
 ```
 
-4. 安装 WhiteSur wallpapers
+1. 安装 WhiteSur wallpapers
 
 ```shell
 git clone https://github.com/vinceliuice/WhiteSur-wallpapers.git
@@ -99,23 +107,23 @@ sudo update-grub
 sudo apt install flatpak
 ```
 
-2. 添加Flathub仓库
+1. 添加Flathub仓库
 
 ```shell
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-3. 安装HydraPaper
+1. 安装HydraPaper
 
 ```shell
 flatpak install flathub org.gabmus.hydrapaper
 ```
 
-4. 重启
+1. 重启
 重启电脑后可以在应用菜单找到 HydraPaper ，默认它会使用主目录下 `图片` 文件夹中的图片
 
 ## 参考
 
-[Ubuntu桌面美化教程，手把手教你。含GRUB引导界面美化。](https://blog.csdn.net/2301_76911706/article/details/133000145)
-[WhiteSur主题](https://skyao.io/learning-linux-mint/docs/installation/theme/whitesur/)
+[Ubuntu桌面美化教程，手把手教你。含GRUB引导界面美化。](https://blog.csdn.net/2301_76911706/article/details/133000145)  
+[WhiteSur主题](https://skyao.io/learning-linux-mint/docs/installation/theme/whitesur/)  
 [如何进入linux的grub引导界面](https://blog.csdn.net/yjj350418592/article/details/121759907)
