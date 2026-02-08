@@ -35,7 +35,7 @@ export default defineConfig({
       { text: '关于', link: '/01_about' }
     ],
     socialLinks: [
-      { icon: 'gitea', link: 'https://git.mei.lv/mei/kb' }
+      { icon: 'gitea', link: 'https://git.mmeiblog.cn/mei/kb' }
     ]
   }
 })
