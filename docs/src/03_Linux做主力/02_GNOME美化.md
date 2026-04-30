@@ -21,7 +21,7 @@ sudo apt install gnome-tweaks chrome-gnome-shell
 * `Clipboard Indicator`：剪切板历史
 * `Coverflow Alt-Tab`:美化窗口切换效果
 
-3. 安装主题
+1. 安装主题
 进入网站下载主题：
 `https://www.gnome-look.org/browse/`
 或
