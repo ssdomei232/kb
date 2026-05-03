@@ -63,3 +63,7 @@ rclone sync --dry-run 源 远程:目标
 # 使用 -P/--progress 标志查看实时传输统计信息
 rclone sync -P --interactive 源 远程:目标
 ```
+
+## 参考资料
+
+[rclone中文站](https://rclone.cn/)
